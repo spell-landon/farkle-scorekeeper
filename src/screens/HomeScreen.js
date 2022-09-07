@@ -13,7 +13,7 @@ export const HomeScreen = ({ navigation }) => {
     <LinearGradient
       colors={['#5CC8D8', '#5D66E2']}
       className='flex-1 justify-between items-center bg-gradient-to-br py-16'>
-      <View className='justify-center items-center'>
+      <View className='justify-center items-center mt-10'>
         <Image
           className='h-64 w-64'
           source={require('../../assets/dice.png')}
@@ -23,7 +23,7 @@ export const HomeScreen = ({ navigation }) => {
       </View>
       <TouchableHighlight
         onPress={() => navigation.navigate('Landing Page')}
-        className='bg-[#5CC8D8] py-4 px-8 rounded-full'>
+        className='bg-[#5CC8D8] py-4 px-8 rounded-full mb-40'>
         <View>
           <Text className='text-white text-lg font-medium'>Start Game</Text>
         </View>
